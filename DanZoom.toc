@@ -1,0 +1,34 @@
+## Interface: 110207
+## Title: DanZoom
+## Notes: Customize camera zoom behavior
+## Notes-deDE: Zoomverhalten der Kamera anpassen
+## Author: Daniel
+## Version: 0.1
+## SavedVariables: DanZoomDB
+## IconTexture: Interface\AddOns\DanZoom\Icon
+
+# https://warcraft.wiki.gg/wiki/Addon_Categories
+## Category: UI Overhaul
+## Category-deDE: Benutzeroberfläche
+
+Core/Namespace.lua
+Core/Constants.lua
+Core/Utils.lua
+Core/Normalize.lua
+
+Localization/Localization.lua
+Localization/Locales/enUS.lua
+Localization/Locales/deDE.lua
+
+Core/DB.lua
+Core/ZoomMax.lua
+Core/ZoomMin.lua
+Core/Chat.lua
+Core/Presets.lua
+
+UI/Settings/Helpers.lua
+UI/Settings/Category_Settings.lua
+UI/Settings/Category_Others.lua
+UI/Settings/Registry.lua
+
+Init.lua

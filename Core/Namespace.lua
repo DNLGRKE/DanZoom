@@ -1,0 +1,1 @@
+DanZoom = DanZoom or {}
