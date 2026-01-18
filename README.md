@@ -1,8 +1,6 @@
 # DanZoom
 
-<p align="center">
-  <img src="docs/icon.png" width="128" alt="DanZoom Icon">
-</p>
+![DanZoom Icon](docs/Icon.png)
 
 DanZoom is a lightweight World of Warcraft **Retail** addon that lets you customize camera zoom behavior in a simple and controlled way.
 
