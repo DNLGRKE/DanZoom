@@ -1,6 +1,10 @@
 # DanZoom
 
-DanZoom is a lightweight World of Warcraft Retail addon that lets you customize camera zoom behavior in a simple and controlled way.
+<p align="center">
+  <img src="docs/icon.png" width="128" alt="DanZoom Icon">
+</p>
+
+DanZoom is a lightweight World of Warcraft **Retail** addon that lets you customize camera zoom behavior in a simple and controlled way.
 
 ## Features
 * Set custom **maximum camera zoom** (via CVar)
@@ -11,10 +15,15 @@ DanZoom is a lightweight World of Warcraft Retail addon that lets you customize 
 * Localization: English and German
 
 ## Installation
-1. Download or clone this repository
+
+### Manual
+1. Download the latest release (ZIP) or clone this repository
 2. Copy the `DanZoom` folder into:
    `World of Warcraft/_retail_/Interface/AddOns/`
 3. Restart the game or run `/reload`
+
+> CurseForge release planned.
+> This repository will remain the main development source.
 
 ## Settings
 You can find the settings in:
@@ -30,22 +39,28 @@ You can find the settings in:
 * **Minimum Zoom Distance**
   Defines how close the camera is allowed to get.
 
-### Settings → Others
+### Settings → Other
 * **Show Login Message**
   Shows current zoom settings in chat when logging in.
 
 ## Technical Notes
 * Settings are stored in SavedVariables (`DanZoomDB`)
-* Camera max zoom is applied via `cameraDistanceMaxZoomFactor` CVar
+* Max camera zoom is applied via `cameraDistanceMaxZoomFactor` CVar
 * Minimum zoom is enforced after zoom-in input using a debounced hook
 
 ## Status
-Current version: **0.1**
+Current version: **0.1.x**
 
 Planned features:
 * Preset system (quick zoom profiles)
+* Minimap icon (preset quick apply)
+* Fixed distance mode
 * Optional profile-based settings
-* Adding multiple languages
+* Additional localizations
+
+## Contributing
+Issues and pull requests are welcome.
+Feel free to fork the project and experiment.
 
 ## License
-MIT (or choose another license if needed)
+This project is licensed under the MIT License. See the `LICENSE` file for details.
